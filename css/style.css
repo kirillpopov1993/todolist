@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+h2 {
+  color: green;
+}
+header {
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    background: #87ceeb;
+    color:#008000;
+    text-shadow: 0 1px 1px #2D2020;
+}
+input {
+    text-align: center; 
+}
+input::placeholder {
+    color: skyblue;
+    font-size: 20px;
+}
+input:hover{
+    background-color: white;
+}
+
+.todo_list{
+    margin-top: 10px;
+}
+.add_new {
+    margin-top: 10px;
+}
+.todo {
+    height: 35px;
+    padding-left: 0;
+ }
+.todo li {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: skyblue;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.todo li:not(:last-child) {
+    background-color: skyblue;
+    border-bottom: 1px solid skyblue;
+}
+  
+.btnDelete {
+    width: 38px !important; 
+    height: 38px !important;
+    border-radius: 19px !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 16px !important;
+}
